@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
+	sentinel "github.com/brucewangzhihua/sentinel-golang/api"
 )
 
 func Benchmark_Directly_Concurrency4(b *testing.B) {

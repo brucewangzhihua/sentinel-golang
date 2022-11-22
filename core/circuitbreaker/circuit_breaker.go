@@ -4,10 +4,10 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	sbase "github.com/alibaba/sentinel-golang/core/stat/base"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
+	sbase "github.com/brucewangzhihua/sentinel-golang/core/stat/base"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/util"
 )
 
 //

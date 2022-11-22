@@ -6,10 +6,10 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/hotspot/cache"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/core/hotspot/cache"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/util"
 )
 
 type TrafficShapingController interface {

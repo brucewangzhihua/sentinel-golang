@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/brucewangzhihua/sentinel-golang/ext/datasource"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/util"
 	"github.com/fsnotify/fsnotify"
 	"github.com/pkg/errors"
 )

@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
 	"github.com/pkg/errors"
 )
 

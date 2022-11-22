@@ -7,9 +7,9 @@ import (
 	"math/rand"
 	"time"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/util"
+	sentinel "github.com/brucewangzhihua/sentinel-golang/api"
+	"github.com/brucewangzhihua/sentinel-golang/core/circuitbreaker"
+	"github.com/brucewangzhihua/sentinel-golang/util"
 )
 
 type stateChangeTestListener struct {

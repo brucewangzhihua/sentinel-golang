@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
+	sentinel "github.com/brucewangzhihua/sentinel-golang/api"
 )
 
 var numbers = make([]int, 0)

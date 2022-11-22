@@ -3,9 +3,9 @@ package gin
 import (
 	"net/http"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/gin-gonic/gin"
+	"github.com/brucewangzhihua/gin"
+	sentinel "github.com/brucewangzhihua/sentinel-golang/api"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
 )
 
 // SentinelMiddleware returns new gin.HandlerFunc

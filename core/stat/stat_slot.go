@@ -1,8 +1,8 @@
 package stat
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/util"
 )
 
 type Slot struct {

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
+	"github.com/brucewangzhihua/sentinel-golang/ext/datasource"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	tmock "github.com/stretchr/testify/mock"

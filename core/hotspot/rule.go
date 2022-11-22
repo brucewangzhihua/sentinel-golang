@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
 )
 
 // ControlBehavior indicates the traffic shaping behaviour.

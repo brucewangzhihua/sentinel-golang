@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	cb "github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/core/hotspot"
-	"github.com/alibaba/sentinel-golang/core/system"
+	cb "github.com/brucewangzhihua/sentinel-golang/core/circuitbreaker"
+	"github.com/brucewangzhihua/sentinel-golang/core/flow"
+	"github.com/brucewangzhihua/sentinel-golang/core/hotspot"
+	"github.com/brucewangzhihua/sentinel-golang/core/system"
 )
 
 func checkSrcComplianceJson(src []byte) (bool, error) {

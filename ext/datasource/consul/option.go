@@ -3,7 +3,7 @@ package consul
 import (
 	"time"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
+	"github.com/brucewangzhihua/sentinel-golang/ext/datasource"
 	"github.com/hashicorp/consul/api"
 )
 

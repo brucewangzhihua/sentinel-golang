@@ -4,11 +4,11 @@ import (
 	"math"
 	"sync/atomic"
 
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/core/config"
+	"github.com/brucewangzhihua/sentinel-golang/util"
 )
 
 type WarmUpTrafficShapingCalculator struct {

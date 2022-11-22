@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
 )
 
 // TraceError records the provided error to the given SentinelEntry.

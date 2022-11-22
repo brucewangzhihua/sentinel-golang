@@ -3,9 +3,9 @@ package flow
 import (
 	"time"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/core/stat"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
 )
 
 type Slot struct {

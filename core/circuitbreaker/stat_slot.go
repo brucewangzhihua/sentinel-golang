@@ -1,7 +1,7 @@
 package circuitbreaker
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
 )
 
 // MetricStatSlot records metrics for circuit breaker on invocation completed.

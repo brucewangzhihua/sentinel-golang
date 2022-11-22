@@ -3,7 +3,7 @@ package api
 import (
 	"sync"
 
-	"github.com/alibaba/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
 )
 
 var entryOptsPool = sync.Pool{

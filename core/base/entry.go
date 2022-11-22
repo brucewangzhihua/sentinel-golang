@@ -3,7 +3,7 @@ package base
 import (
 	"sync"
 
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
 )
 
 type ExitHandler func(entry *SentinelEntry, ctx *EntryContext) error

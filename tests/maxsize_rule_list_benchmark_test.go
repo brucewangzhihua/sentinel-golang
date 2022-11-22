@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"testing"
 
-	cb "github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	cb "github.com/brucewangzhihua/sentinel-golang/core/circuitbreaker"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/util"
 )
 
 func Test_Size_1000_Circuit_Breaker_Rules_Update(t *testing.T) {
@@ -18,7 +18,7 @@ func Test_Size_1000_Circuit_Breaker_Rules_Update(t *testing.T) {
 	for i := 0; i < 1000; i++ {
 		retryTimeout := intervals[rand.Int()%5]
 		rs = append(rs, &cb.Rule{
-			Resource:         "github.com/alibaba/sentinel/test",
+			Resource:         "github.com/brucewangzhihua/sentinel/test",
 			Strategy:         cb.SlowRequestRatio,
 			RetryTimeoutMs:   retryTimeout,
 			MinRequestAmount: rand.Uint64() % 100,
@@ -42,7 +42,7 @@ func Benchmark_Size_1000_Circuit_Breaker_Rules_Update(b *testing.B) {
 	for i := 0; i < 1000; i++ {
 		retryTimeout := intervals[rand.Int()%5]
 		rs = append(rs, &cb.Rule{
-			Resource:         "github.com/alibaba/sentinel/test" + strconv.Itoa(rand.Int()%100),
+			Resource:         "github.com/brucewangzhihua/sentinel/test" + strconv.Itoa(rand.Int()%100),
 			Strategy:         cb.SlowRequestRatio,
 			RetryTimeoutMs:   retryTimeout,
 			MinRequestAmount: rand.Uint64() % 100,
@@ -70,7 +70,7 @@ func Test_Size_10000_Circuit_Breaker_Rules_Update(t *testing.T) {
 	for i := 0; i < 10000; i++ {
 		retryTimeout := intervals[rand.Int()%5]
 		rs = append(rs, &cb.Rule{
-			Resource:         "github.com/alibaba/sentinel/test" + strconv.Itoa(rand.Int()%100),
+			Resource:         "github.com/brucewangzhihua/sentinel/test" + strconv.Itoa(rand.Int()%100),
 			Strategy:         cb.SlowRequestRatio,
 			RetryTimeoutMs:   retryTimeout,
 			MinRequestAmount: rand.Uint64() % 100,
@@ -93,7 +93,7 @@ func Benchmark_Size_10000_Circuit_Breaker_Rules_Update(b *testing.B) {
 	for i := 0; i < 10000; i++ {
 		retryTimeout := intervals[rand.Int()%5]
 		rs = append(rs, &cb.Rule{
-			Resource:         "github.com/alibaba/sentinel/test" + strconv.Itoa(rand.Int()%100),
+			Resource:         "github.com/brucewangzhihua/sentinel/test" + strconv.Itoa(rand.Int()%100),
 			Strategy:         cb.SlowRequestRatio,
 			RetryTimeoutMs:   retryTimeout,
 			MinRequestAmount: rand.Uint64() % 100,

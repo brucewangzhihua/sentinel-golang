@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/alibaba/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
 
 	"github.com/stretchr/testify/mock"
 )

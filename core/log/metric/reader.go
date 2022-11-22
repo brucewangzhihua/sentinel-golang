@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/brucewangzhihua/sentinel-golang/core/base"
+	"github.com/brucewangzhihua/sentinel-golang/logging"
 	"github.com/pkg/errors"
 )
 
