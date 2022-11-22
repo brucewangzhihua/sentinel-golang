@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
-	github.com/brucewangzhihua/gin v1.8.4
+	github.com/brucewangzhihua/gin v1.8.5
 	github.com/bytedance/sonic v1.5.0 // indirect
 	github.com/coreos/etcd v3.3.25+incompatible
 	github.com/dustin/go-humanize v1.0.0 // indirect
